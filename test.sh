@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo apt install -y python3 python3-openssl
+apt install -y python3 python3-openssl
 
 wget -O ehco_test "https://github.com/Ehco1996/ehco/releases/download/v1.1.2/ehco_1.1.2_linux_amd64"
 chmod +x ehco_test
